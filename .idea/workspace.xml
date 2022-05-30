@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="494e6bc6-94c5-4e97-b800-3740c2c8b229" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cjani/spring/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cjani/spring/MusicPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cjani/spring/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cjani/spring/TestSpring.class" afterDir="false" />
-    </list>
+    <list default="true" id="494e6bc6-94c5-4e97-b800-3740c2c8b229" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653392485921</updated>
       <workItem from="1653392487339" duration="326000" />
-      <workItem from="1653902489855" duration="5734000" />
+      <workItem from="1653902489855" duration="6073000" />
     </task>
     <servers />
   </component>

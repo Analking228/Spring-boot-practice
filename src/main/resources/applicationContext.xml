@@ -18,15 +18,19 @@
     <bean id="classicalMusic"
           class="cjani.spring.ClassicalMusic">
     </bean>
-    <bean id="musicPlayer"
-          class="cjani.spring.MusicPlayer">
-        <property name="musicList">
-            <list value-type="java.util.ArrayList">
+    <bean id="musicList"
+          class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="classicalMusic"/>
                 <ref bean="electronicMusic"/>
                 <ref bean="rockMusic"/>
-                <ref bean="classicalMusic"/>
             </list>
-        </property>
+        </constructor-arg>
+    </bean>
+    <bean id="musicPlayer"
+          class="cjani.spring.MusicPlayer">
+        <property name="musicList" ref="musicList"/>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
     </bean>
