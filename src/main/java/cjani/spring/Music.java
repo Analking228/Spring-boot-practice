@@ -1,5 +1,5 @@
 package cjani.spring;
 
 public interface Music {
-    String  getSong();
+    public String  getSong();
 }
