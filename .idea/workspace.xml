@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="494e6bc6-94c5-4e97-b800-3740c2c8b229" name="Changes" comment="" />
+    <list default="true" id="494e6bc6-94c5-4e97-b800-3740c2c8b229" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/ElectronicMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/ElectronicMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -65,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653392485921</updated>
       <workItem from="1653392487339" duration="326000" />
-      <workItem from="1653902489855" duration="6073000" />
+      <workItem from="1653902489855" duration="6965000" />
+      <workItem from="1653998962992" duration="4633000" />
     </task>
     <servers />
   </component>
@@ -82,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
