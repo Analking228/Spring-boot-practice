@@ -1,40 +1,23 @@
 package cjani.spring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class MusicPlayer {
-    private List<Music> musicList = new ArrayList<>();
-    private String  name;
-    private int     volume;
+    private ClassicalMusic  classicalMusic;
+    private ElectronicMusic electronicMusic;
 
-    public MusicPlayer() {}
-
-    public MusicPlayer(List<Music> musicList) {
-        this.musicList = musicList;
+    @Autowired
+    public MusicPlayer(ClassicalMusic classicalMusic, ElectronicMusic electronicMusic) {
+        this.classicalMusic = classicalMusic;
+        this.electronicMusic = electronicMusic;
     }
 
-    public void playMusic() {
-        musicList.forEach(n -> System.out.println(n.getSong()));
-    }
-
-    public void setMusicList(List<Music> musicList) {
-        this.musicList = musicList;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
+    public String playMusic() {
+        return "Playing: " + classicalMusic.getSong() + ", then: " + electronicMusic.getSong();
     }
 }
