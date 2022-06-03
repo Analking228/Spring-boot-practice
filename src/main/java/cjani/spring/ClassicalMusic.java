@@ -2,8 +2,14 @@ package cjani.spring;
 
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @Component
 public class ClassicalMusic implements Music{
+
+    private List<String> musicList = new ArrayList<String>(Arrays.asList("Hungarian Rhapsody", "Requiem", "Seasons"));
 
     private     ClassicalMusic() {}
 
@@ -11,16 +17,8 @@ public class ClassicalMusic implements Music{
         return new ClassicalMusic();
     }
 
-    private void doMyInit() {
-        System.out.println("Doing my initialization");
-    }
-
-    private void doMyDestroy() {
-        System.out.println("Doing my destruction");
-    }
-
     @Override
-    public String getSong() {
-        return "Hungarian Rhapsody";
+    public List<String> getMusicList() {
+        return musicList;
     }
 }
