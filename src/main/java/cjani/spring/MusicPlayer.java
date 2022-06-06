@@ -2,6 +2,7 @@ package cjani.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -10,6 +11,10 @@ import java.util.Random;
 
 @Component
 public class MusicPlayer {
+    @Value("${musicPlayer.name}")
+    private String  name;
+    @Value("${musicPlayer.volume}")
+    private int     volume;
     private Music   classical;
     private Music   electronic;
 
@@ -24,7 +29,7 @@ public class MusicPlayer {
 
         switch (genre){
             case CLASSICAL:
-                System.out.println("Playing: " + classical.getMusicList().get(random.nextInt(3)));
+                System.out.println("Playing: " + classical.getMusicList().get(random.nextInt(3)) + "with volume% " + volume);
                 break;
             case ELECTRONIC:
                 System.out.println("Playing: " + electronic.getMusicList().get(random.nextInt(3)));
