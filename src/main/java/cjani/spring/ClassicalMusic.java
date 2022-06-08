@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@Component
-@Scope("singleton")
 public class ClassicalMusic implements Music{
 
     private List<String> musicList = new ArrayList<String>(Arrays.asList("Hungarian Rhapsody", "Requiem", "Seasons"));
