@@ -19,7 +19,8 @@ public class MusicPlayer {
     private Music   electronic;
 
     @Autowired
-    public MusicPlayer(@Qualifier("classicalMusic") Music classical, @Qualifier("electronicMusic") Music electronic) {
+    public MusicPlayer(@Qualifier("classicalMusic") Music classical,
+                       @Qualifier("electronicMusic") Music electronic) {
         this.classical = classical;
         this.electronic = electronic;
     }
@@ -29,7 +30,7 @@ public class MusicPlayer {
 
         switch (genre){
             case CLASSICAL:
-                System.out.println("Playing: " + classical.getMusicList().get(random.nextInt(3)) + "with volume% " + volume);
+                System.out.println("Playing: " + classical.getMusicList().get(random.nextInt(3)) + "with volume: " + volume);
                 break;
             case ELECTRONIC:
                 System.out.println("Playing: " + electronic.getMusicList().get(random.nextInt(3)));

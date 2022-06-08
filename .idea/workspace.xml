@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="494e6bc6-94c5-4e97-b800-3740c2c8b229" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cjani/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cjani/spring/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,8 @@
       <workItem from="1653998962992" duration="4633000" />
       <workItem from="1654196310684" duration="2279000" />
       <workItem from="1654248604046" duration="3998000" />
-      <workItem from="1654334483956" duration="4314000" />
+      <workItem from="1654334483956" duration="4498000" />
+      <workItem from="1654715880511" duration="712000" />
     </task>
     <servers />
   </component>
