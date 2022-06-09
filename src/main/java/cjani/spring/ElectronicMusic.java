@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ElectronicMusic implements Music{
-    List<String> musicList = new ArrayList<String>(Arrays.asList("Avaritia", "Fn Pig", "Pomegranade"));
+    private Genre genre = Genre.ELECTRONIC;
+    private List<String> musicList = new ArrayList<String>(Arrays.asList("Avaritia", "Fn Pig", "Pomegranade"));
 
     private ElectronicMusic() {}
 
@@ -15,6 +16,9 @@ public class ElectronicMusic implements Music{
     public List<String> getMusicList() {
         return musicList;
     }
+
+    @Override
+    public Genre    getGenre() {return genre;}
 
     public static ElectronicMusic getElectronicMusic() { return new ElectronicMusic();}
 }

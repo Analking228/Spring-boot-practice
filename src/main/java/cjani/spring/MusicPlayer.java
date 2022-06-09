@@ -14,28 +14,15 @@ public class MusicPlayer {
     private String  name;
     @Value("${musicPlayer.volume}")
     private int     volume;
-    private Music   classical;
-    private Music   electronic;
+    private List<Music>   genreList;
 
-    public MusicPlayer(@Qualifier("classicalMusic") Music classical,
-                       @Qualifier("electronicMusic") Music electronic) {
-        this.classical = classical;
-        this.electronic = electronic;
+    public MusicPlayer(List<Music> genreList) {
+        this.genreList = genreList;
     }
 
-    public void playMusic(Genre genre) {
+    public void playMusic() {
         Random random = new Random();
-
-        switch (genre){
-            case CLASSICAL:
-                System.out.println("Playing: " + classical.getMusicList().get(random.nextInt(3)) + "with volume: " + volume);
-                break;
-            case ELECTRONIC:
-                System.out.println("Playing: " + electronic.getMusicList().get(random.nextInt(3)));
-                break;
-            default:
-                System.out.println("Unknown music has been set");
-                break;
-        }
+        Music music = genreList.get(random.nextInt(3));
+        System.out.println("Now playing: " + music.getMusicList().get(random.nextInt(3)));
     }
 }

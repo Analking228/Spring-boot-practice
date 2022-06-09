@@ -8,10 +8,10 @@ public class TestSpring {
                 SpringConfig.class
         );
         MusicPlayer musicPlayer1 = context.getBean("musicPlayer", MusicPlayer.class);
-        musicPlayer1.playMusic(Genre.CLASSICAL);
+        musicPlayer1.playMusic();
 
         MusicPlayer musicPlayer2 = context.getBean("musicPlayer", MusicPlayer.class);
-        musicPlayer2.playMusic(Genre.ELECTRONIC);
+        musicPlayer2.playMusic();
 
         context.close();
     }
